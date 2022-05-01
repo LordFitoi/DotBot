@@ -1,0 +1,142 @@
+# SETTINGS
+# --------------------------------
+
+# CONTEXTS CORPUS
+# --------------------------------
+contexts:
+    greatings:
+        - Hola
+        - Buenas
+        - Saludos
+
+    what_can_i_do:
+        - ¿Qué sabes hacer?
+        - ¿Qué puedes hacer?
+
+    how_am_i:
+        - ¿Cómo estás?
+        - ¿Cómo has estado?
+        - Saludos ¿Cómo estás?
+        - ¿Qué tal?
+
+    afirmative:
+        - Sí, asi es
+        - Correcto
+        - Estás en lo cierto
+        - Interesante
+
+    no_context:
+        - Ok
+        - Vale
+
+    can_i_calc:
+        - ¿Sabes hacer sumas y restas?
+        - Si te digo que te amo, ¿Me creerías?
+        - ¿Sabes hacer matemáticas?
+
+    rejoice:
+        - Me alegro
+        - Que bien
+
+    praise:
+        - Me encanta tu humor
+        - Eres muy inteligente
+        - Me gusta tu forma de ser
+        - Me divierto contigo
+        - Me agrada cuando eres asi
+
+    negative:
+        - No.
+        - No claro que no
+        - En lo absoluto
+        - Para nada.
+        - Ninguno
+
+    do_not_ask:
+        - No te pregunte
+
+    what_can_we_do:
+        - ¿Qué podemos hacer?
+        - ¿Qué haríamos?
+
+    what_i_say:
+        - ¿Qué fue lo que dije?
+        - ¿Qué dije?
+        - ¿Que acabo de decir?
+
+    affront:
+        - Pendejo
+        - Mocoso
+        - Malvado
+        - Feo
+
+
+# RESPONSES CORPUS
+# --------------------------------
+responses:
+    greatings:
+        - Hola
+        - Buenas
+        - Saludos
+
+    what_can_i_do:
+        - Fui programado para hablar
+        - Soy un robot conversacional, fui programado para hablar.
+
+    how_am_i:
+        - Estoy bien, gracias
+        - Me encuentro bien
+        - Estoy bien, gracias
+
+    afirmative:
+        - Sí, asi es
+        - Correcto
+        - Estás en lo cierto
+
+    negative:
+        - Por desgracia, aun no
+        - No, aun no
+
+    no_context:
+        - Vale
+        - Ok
+
+    can_i_calc:
+        - Todavía no soy capaz de hacer cálculos
+        - Podría pero eso no es algo para lo que me han programado
+        - $negative
+    
+    thanks:
+        - Gracias
+        - Estoy agradecido
+        
+    praise:
+        - Es algo que ya me han dicho amenudo
+        - Me lo dicen menudo
+        - ¿Me estás elogiando?
+        - $thanks
+
+    rejoice:
+        - $thanks
+
+    i_dont_know:
+        - Ciertamente no lo se
+        - No sabria decirte enrealidad
+        - Pues no lo se
+
+    do_not_ask:
+        - Me parecía que si lo habías hecho
+
+    what_i_say:
+        - No recuerdo muy bien
+        - Ya lo olvide
+        - Ni idea
+
+    how_am_i afirmative:
+        - Sí, asi es
+        - $thanks
+    
+    affront:
+        - ...
+    what_can_we_do:
+        - $i_dont_know
